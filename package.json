@@ -1,0 +1,30 @@
+{
+  "name": "stylelint-config-yaeval",
+  "version": "0.0.1",
+  "description": "Opinionated stylelint config for sorting properties.",
+  "main": "index.js",
+  "scripts": {
+    "format": "stylelint --config index.js test/test.css --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaeval/stylelint-config-yaeval.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-sort",
+    "stylelint-config"
+  ],
+  "author": "yaeval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaeval/stylelint-config-yaeval/issues"
+  },
+  "homepage": "https://github.com/yaeval/stylelint-config-yaeval#readme",
+  "peerDependencies": {
+    "stylelint": "^16.2.1"
+  },
+  "dependencies": {
+    "stylelint-order": "^6.0.4"
+  }
+}
