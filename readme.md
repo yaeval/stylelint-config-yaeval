@@ -23,7 +23,7 @@ If you have any suggestions, create an issue.
 First install the package:
 
 ```sh
-npm install stylelint @yaeval/stylelint-config-yaeval
+npm install stylelint -D @yaeval/stylelint-config-yaeval
 ```
 
 Then in your stylelint config file (javascript config example):
