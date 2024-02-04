@@ -1,5 +1,7 @@
 # stylelint-config-yaeval
 
+![NPM Version](https://img.shields.io/npm/v/@yaeval/stylelint-config-yaeval?style=flat-square)
+
 This stylelint configuration covers many commonly used CSS properties and sorts them.
 
 Sort order:
@@ -21,14 +23,14 @@ If you have any suggestions, create an issue.
 First install the package:
 
 ```sh
-npm install stylelint-config-yaeval
+npm install stylelint @yaeval/stylelint-config-yaeval
 ```
 
 Then in your stylelint config file (javascript config example):
 
 ```javascript
 module.exports = {
-  extends: ['stylelint-config-standard'],
+  extends: ['@yaeval/stylelint-config-yaeval'],
   // ...
 }
 ```

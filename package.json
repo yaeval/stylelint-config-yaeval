@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-yaeval",
+  "name": "@yaeval/stylelint-config-yaeval",
   "version": "0.0.1",
   "description": "Opinionated stylelint config for sorting properties.",
   "main": "index.js",
