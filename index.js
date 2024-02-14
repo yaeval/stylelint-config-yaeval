@@ -192,6 +192,9 @@ module.exports = {
       "animation-fill-mode",
       "animation-play-state",
       // Other
+      "scrollbar-color",
+      "scrollbar-gutter",
+      "scrollbar-width",
       "counter-reset",
       "counter-increment",
       "content",
